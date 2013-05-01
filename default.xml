@@ -6,7 +6,7 @@
            review="android-review.googlesource.com" />
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
-           sync-j="16" />
+           sync-j="10" />
 
   <remote name="thinkingbridge"
           fetch="git://github.com/ThinkingBridge/" />
@@ -35,34 +35,20 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_dalvik" remote="thinkingbridge" revision="jb-mr1" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="thinkingbridge" revision="cm-10.1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
-  <project path="device/samsung/crespo" name="platform_device_samsung_crespo" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="thinkingbridge" revision="cm-10.1" />
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="thinkingbridge" revision="cm-10.1" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/galaxys2-common" name="platform_device_samsung_galaxys2-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/aries-common" name="platform_device_samsung_aries-common" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/galaxysmtd" name="platform_device_samsung_galaxysmtd" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/i9100" name="platform_device_samsung_i9100" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/i9100g" name="platform_device_samsung_i9100g" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/i9300" name="platform_device_samsung_i9300" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/n7000" name="platform_device_samsung_n7000" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/n7100" name="platform_device_samsung_n7100" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-common" name="platform_device_samsung_smdk4412-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/lge/mako" name="platform_device_lge_mako" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/lge/e975" name="platform_device_lge_e975" remote="thinkingbridge" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -283,14 +269,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   
-  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="thinkingbridge" revision="cm-10.1" />
   <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
-  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="github" revision="lk-jb-mr1" />
-  <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="cm" revision="cm-10.1" />
   <project path="kernel/lge/mako" name="faux123/mako" remote="github" revision="enhanced_stock" />
   
   <project path="libcore" name="platform_libcore" remote="thinkingbridge" revision="jb-mr1" />
@@ -403,9 +382,6 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-10.1" />
-  <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" remote="github" revision="cm-10.1" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-10.1" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.1" />
@@ -416,7 +392,6 @@
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.1" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-10.1" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-10.1" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.1" />
   <project path="vendor/thinkingbridge" name="vendor_thinkingbridge" remote="thinkingbridge" revision="jb-mr1" />
   <project path="vendor/thinkingbridge/bot" name="pseudo_buildbot" remote="thinkingbridge" revision="jb-mr1" />
 
