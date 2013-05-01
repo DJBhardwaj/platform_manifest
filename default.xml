@@ -45,9 +45,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/aries-common" name="platform_device_samsung_aries-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/smdk4412-common" name="platform_device_samsung_smdk4412-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/lge/mako" name="platform_device_lge_mako" remote="thinkingbridge" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -269,7 +267,6 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   
-  <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
   <project path="kernel/lge/mako" name="faux123/mako" remote="github" revision="enhanced_stock" />
   
   <project path="libcore" name="platform_libcore" remote="thinkingbridge" revision="jb-mr1" />
@@ -395,5 +392,5 @@
   <project path="vendor/thinkingbridge" name="vendor_thinkingbridge" remote="thinkingbridge" revision="jb-mr1" />
   <project path="vendor/thinkingbridge/bot" name="pseudo_buildbot" remote="thinkingbridge" revision="jb-mr1" />
 
-  <project path="android" name="platform_manifest" remote="thinkingbridge" revision="jb-mr1" />
+  <project path="android" name="DJBhardwaj/platform_manifest" remote="github" revision="jb-mr1" />
 </manifest>
