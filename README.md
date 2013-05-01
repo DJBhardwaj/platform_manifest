@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/downloading.html).
 
 To initialize your local repository using the ThinkingBridge trees, use a command like this:
 
-    repo init -u git://github.com/ThinkingBridge/platform_manifest.git -b jb-mr1
+    repo init -u git://github.com/DJBhardwaj/platform_manifest.git -b jb-mr1
 
 Then to sync up:
 
