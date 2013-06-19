@@ -268,8 +268,6 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   
-  <project path="kernel/lge/mako" name="franciscofranco/mako/tree/milestone" remote="github" revision="milestone" />
-  
   <project path="libcore" name="platform_libcore" remote="thinkingbridge" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   
